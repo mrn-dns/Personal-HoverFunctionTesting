@@ -1,0 +1,20 @@
+body {
+	margin:0;
+	background-color: #FAFAFA;
+}
+
+body div {
+	background-color:white;
+	height:300px;
+	border-radius:100%;
+	width:300px;
+	margin: 100px 0px 0px 100px;
+	box-shadow:  1px 1px  4px 3px rgba(0,0,0,0.05); 
+	transition: box-shadow 1s, background-color 1s ;
+}
+
+body div:hover{
+	background-color:#234567;
+	box-shadow:  10px 10px 10px 4px  rgba(0,0,0,0.15);
+
+}
